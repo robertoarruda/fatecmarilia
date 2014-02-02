@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#all.post {
+    margin-bottom: -149px;
+}
+
+div.ops {
+    position: absolute !important;
+    float: left !important;
+    margin-left: 285px !important;
+
+    font-family: 'Muli', sans-serif !important;
+    font-size: 100px !important;
+    letter-spacing: -8pt !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    color: rgb(218,218,234) !important;
+    text-align: left !important;
+}
+
+div.c404 {
+    position: relative !important;
+    float: right !important;
+    margin-top: 5px !important;
+    margin-right: 285px !important;
+
+    font-family: 'Anton', sans-serif !important;
+    font-size: 220px !important;
+    font-weight: bold !important;
+    color: rgb(51,102,204) !important;
+    text-align: left !important;
+}
+
+div.error {
+    position: relative !important;
+    float: right !important;
+    margin-top: -95px !important;
+    margin-right: 340px !important;
+
+    font-family: 'Muli', sans-serif !important;
+    font-size: 50px !important;
+    color: rgb(218,218,234) !important;
+    text-align: left !important;
+}
+
+div.align {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+div.align h1 {
+    background: none !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    padding: 0px !important;
+    width: auto !important;
+    height: auto !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-style: italic !important;
+    font-size: 35px !important;
+    color: rgb(51,102,204) !important;
+    text-align: inherit !important;
+}
+
+div.align h2 {
+    font-family: 'Muli', sans-serif !important;
+    font-size: 20px !important;
+    color: rgb(31,31,46) !important;
+}
+
+div.align p {
+    font-family: 'Muli', sans-serif !important;
+    font-size: 16px !important;
+    color: rgb(31,31,46) !important;
+}
+
+div.align p.server {
+    margin-top: 5px;
+    font-size: 12px !important;
+    font-style: italic !important;
+    color: #888 !important;
+}

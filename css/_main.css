@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+article#article div ul.lembretes {
+    list-style: none;
+    margin-left: -50px;
+}
+
+article#article div ul.lembretes li.lembrete {
+    display: inline-block;
+    float: right; 
+    background-image: url('/imagens/layout/estrutura/png/lembrete.png');
+    width: 300px;
+    height: 310px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    color: rgb(31,31,44);
+}
+
+article#article div ul.lembretes li.lembrete a {
+    display: block;
+    width: 230px;
+    height: 270px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    text-decoration: none;
+    color: rgb(31,31,44);
+}
+
+article#article div ul.lembretes li.lembrete a h1 {
+    background: none;
+    font-family: 'Muli', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(51,102,204);
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: auto;
+}
+
+article#article div ul.lembretes li.lembrete a h2 {
+    background: none;
+    font-family: 'Muli', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+article#article div ul.lembretes li.lembrete a p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+article#article div ul.lembretes li.lembrete a p.horario {
+    color: #ff0000;
+}
+
+article#article div ul.lembretes li.lembrete a p.comentarios {
+    margin-top: 2px;
+}
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 980px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-right: 20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: right;
+}
+
+article#article div ul#boxButtons {
+    list-style: none;
+    margin-right: -20px;
+}
+
+article#article div ul#boxButtons li {
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+article#article div ul#boxButtons li a {
+    display: block;
+    background-color: rgb(51,102,204);
+    width: 490px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding-top: 8px;
+    
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}

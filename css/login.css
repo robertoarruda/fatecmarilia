@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 570px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 20px;
+    padding-right: 410px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div ul#boxLogin {
+    list-style: none;
+    margin-right: -26px;
+}
+
+article#article div ul#boxLogin li {
+    display: inline;
+    float: left;
+    width: 316px;
+    height: 416px;
+    margin-right: 26px;
+}
+
+article#article div ul#boxLogin li article.boxLogin {
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(217,225,244);
+    width: 300px;
+    height: 400px;
+    border-color: rgb(255,255,255);
+    border-width: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-style: solid;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -ms-filter: alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+article#article div ul#boxLogin li article.boxLogin h1 {
+    background-color: rgb(219,219,234);
+    width: 210px;
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div ul#boxLogin li article.boxLogin img {
+    position: absolute;
+    top: 28px;
+    left: 2px;
+    margin-top: 4px;
+    margin-right: 8px;
+    width: 60px;
+    height: 60px;
+    text-align: left;
+}
+
+article#article div ul#boxLogin li article.boxLogin form {
+    padding: 5px;
+}
+
+article#article div ul#boxLogin li article.boxLogin form input[type="email"],
+article#article div ul#boxLogin li article.boxLogin form input[type="password"] {
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+article#article div ul#boxLogin li article.boxLogin form div.login {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+article#article div ul#boxLogin li article.boxLogin form div input.btnLogin {
+    float: right;
+    display: block;
+    background-color: rgb(51,102,204);
+    width: 140px;
+    height: 55px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding-bottom: 2px;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div ul#boxLogin li article.boxLogin form div p {
+    float: right;
+    margin-top: 15px;
+}
+
+article#article div ul#boxLogin li article.boxLogin form div p a {
+    display: block;
+    margin-bottom: 5px;
+
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(31,31,46);
+    cursor: pointer;
+}
+
+article#article div ul#boxLogin li article.boxLogin form div p a:hover {
+    text-decoration: underline;
+}

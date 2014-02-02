@@ -1,0 +1,568 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('http://fonts.googleapis.com/css?family=Anton');
+@import url('http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body, div#all {
+    height: 100%;
+}
+
+body > div#all {
+    height: auto;
+    min-height: 100%;
+}
+
+body {
+    background: url(../imagens/layout/estrutura/gif/background.gif) repeat;
+    min-width: 1080px;
+}
+
+div.clear{
+    clear: both;
+}
+
+div.enquadramento1000px {
+    margin: 0px auto;
+    width: 1000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+}
+
+hr {
+    margin: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 900px;
+    height: 0px;
+    border: 0px;
+    border-top: 1px solid;
+    border-color: rgb(202,202,217);
+}
+
+hr.v {
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 0px;
+    height: 50px;
+    border: 0px;
+    border-left: 1px solid;
+    border-color: rgb(202,202,217);
+}
+
+/* ---------- CABEÇALHO ----------------------------------------------------------------------------------------- */
+
+header {
+    height: 235px;
+    min-width: 100%;
+}
+
+header div#efeitoDegradeLinear {
+    position: absolute;
+    top: 0px;
+    background-image: -moz-linear-gradient(50% 0% -90deg,rgba(153,179,255,0.8) 0%,rgba(255,255,255,0) 100%);
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgba(153,179,255,0.8)),color-stop(1, rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(-90deg,rgba(153,179,255,0.8) 0%,rgba(255,255,255,0) 100%);
+    background-image: -o-linear-gradient(-90deg,rgba(153,179,255,0.8) 0%,rgba(255,255,255,0) 100%);
+    background-image: -ms-linear-gradient(-90deg,rgba(153,179,255,0.8) 0%,rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(50% 0% -90deg,rgba(153,179,255,0.8) 0%,rgba(255,255,255,0) 100%);
+    width: 100%;
+    min-width: 1080px;
+    height: 674px;
+    z-index: -1;
+}
+
+header div div#efeitoDegradeRadial {
+    position: absolute;
+    top: 0px;
+    margin-top: -180px;
+    margin-left: -220px;
+    width: 838px;
+    height: 800px;
+    background: url(../imagens/layout/estrutura/png/efeitoDegradeRadial.graphic.png);
+    z-index: -1;
+}
+
+header div div#efeitoElipseDegradeRadial {
+    position: absolute;
+    top: 0px;
+    margin-top: -90px;
+    margin-left: -160px;
+    width: 628px;
+    height: 436px;
+    background: url(../imagens/layout/estrutura/png/efeitoElipseDegradeRadial.graphic.png);
+    z-index: -1;
+}
+
+header div#faixaAzul {
+    position: absolute;
+    top: 0px;
+    margin-top: 3px;
+    min-width: 100%;
+    height: 120px;
+    background: url(/imagens/layout/estrutura/png/FaixaAzul.graphic.png) center;
+}
+
+header div#faixaAzul div a img#logoFatec {
+    position: absolute;
+    top: 0px;
+    margin-top: 24px;
+    margin-left: 22px;
+    width: 363px;
+    height: 172px;
+}
+
+header div#faixaAzul div nav#menu {
+    float: right;
+    margin-top: 25px;
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    text-align: left;
+}
+
+header div#faixaAzul div nav#menu ul {
+    width: 100%;
+    list-style: none;
+}
+
+header div#faixaAzul div nav#menu ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 36px;
+}
+
+header div#faixaAzul div nav#menu ul li a {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+header div#faixaAzul div nav#menu ul li.drop:hover ul.drop {
+    visibility: visible;
+}
+
+header div#faixaAzul div nav#menu ul li.drop ul.drop {
+    visibility: hidden;
+    margin: 0px;
+    position: absolute;
+    display: block;
+    width: auto;
+    max-width: 350px;
+    list-style: none;
+    z-index: 10000;
+    
+    border-color: rgb(51,102,204);
+    border-width: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: rgba(255,255,255,0.9);
+    
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    
+    cursor: pointer;
+}
+
+header div#faixaAzul div nav#menu ul li ul.drop li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+header div#faixaAzul div nav#menu ul li ul.drop li a {
+    display: block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(51,102,204);
+}
+
+header div#faixaAzul div nav#menu ul li ul.drop li a:hover {
+    background-color: rgba(144,23,23,0.9);
+    color: #FFF;
+}
+
+header div#faixaAzul div nav#redesSociais {
+    float: right;
+    margin-top: 48px;
+}
+
+header div#faixaAzul div nav#redesSociais ul {
+    width: 100%;
+    list-style: none;
+}
+
+header div#faixaAzul div nav#redesSociais ul li {
+    margin-left: 10px;
+    display: inline;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado {
+    display: inline-block;
+    background-color: rgba(255,255,255,0.5);
+    width: 358px;
+    height: 62px;
+    border-color: rgb(255,255,255);
+    border-width: 1px;
+    -moz-border-radius: 13px ;
+    -webkit-border-radius: 13px ;
+    border-radius: 13px ;
+    border-style: solid;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado a img {
+    float: left;
+    margin-right: 10px;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado div {
+    float: left;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado div h1 {
+    margin-top: 10px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado div p {
+    margin-top: 4px;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    color: rgb(159,164,177);
+    text-align: left;
+
+}
+header div#faixaAzul div nav#redesSociais ul li#logado a.area,
+header div#faixaAzul div nav#redesSociais ul li#logado a.editar,
+header div#faixaAzul div nav#redesSociais ul li#logado a.logout {
+    position: absolute;
+    display: block;
+    margin-top: 37px;
+    background-color: rgb(51,102,204);
+    width: 50px;
+    height: 16px;
+    -moz-border-radius: 4px ;
+    -webkit-border-radius: 4px ;
+    border-radius: 4px ;
+    padding-top: 3px;
+
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    text-align: center;
+
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado a.area {
+    margin-left: 194px;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado a.editar {
+    margin-left: 248px;
+}
+
+header div#faixaAzul div nav#redesSociais ul li#logado a.logout {
+    margin-left: 302px;
+    background-color: rgb(144,23,23);
+}
+
+header div#faixaAzul div nav#redesSociais ul li#nologado img {
+    margin-right: 30px;
+}
+
+/* ---------- RODAPÉ -------------------------------------------------------------------------------------------- */
+
+footer {
+    padding-top: 40px;
+    position: relative;
+}
+
+footer div#efeitoDegradeLinear2 {
+    position: relative;
+    margin-top: -200px;
+    width: 100%;
+    height: 200px;
+    background-image: -moz-linear-gradient(50% 0% -90deg,rgba(255,255,255,0) 0%,rgba(153,179,255,0.3) 100%);
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgba(255,255,255,0)),color-stop(1, rgba(153,179,255,0.3)));
+    background-image: -webkit-linear-gradient(-90deg,rgba(255,255,255,0) 0%,rgba(153,179,255,0.3) 100%);
+    background-image: -o-linear-gradient(-90deg,rgba(255,255,255,0) 0%,rgba(153,179,255,0.3) 100%);
+    background-image: -ms-linear-gradient(-90deg,rgba(255,255,255,0) 0%,rgba(153,179,255,0.3) 100%);
+    background-image: linear-gradient(50% 0% -90deg,rgba(255,255,255,0) 0%,rgba(153,179,255,0.3) 100%);
+    z-index: -1;
+}
+
+footer div.shadow {
+    margin-top: -5px;
+    width: 100%;
+    height: 5px;
+    background: url(../imagens/layout/estrutura/png/shadowFooter.png) repeat;
+}
+
+footer div#footer1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFF;
+}
+
+footer div#footer1 a img {
+    margin-left: 9px;
+}
+
+footer div#footer2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*background: rgb(51,102,204);*/
+    background: url(../imagens/layout/estrutura/png/bgFooter.png) repeat left top;
+}
+
+footer div#footer2 div div#bloco1 {
+    float: left;
+    width: 430px;
+}
+
+footer div#footer2 div div#bloco1 hgroup h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: left;
+}
+
+footer div#footer2 div div#bloco1 hgroup h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    text-align: left;
+}
+
+footer div#footer2 div div#bloco1 address {
+    margin-top: 10px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    text-align: left;
+}
+
+footer div#footer2 div div#bloco1 address a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer div#footer2 div div#bloco1 address a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+footer div#footer2 div div#bloco2 {
+    float: left;
+    width: 570px;
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter {
+    background: rgb(51,102,204);
+    float: right;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul {
+    width: 100%;
+    list-style: none;
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(144,23,23);
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li a {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li.dropFooter:hover ul.dropFooter {
+    visibility: visible;
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li.dropFooter ul.dropFooter {
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+    max-width: 200px;
+    margin-top: 5px;
+    margin-left: -10px;
+    border-color: #FFF;
+    border-width: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    z-index: 10000;
+    
+    list-style: none;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    text-align: left;
+    background: rgba(255,255,255,0.8);
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li.dropFooter ul.dropFooter li {
+    display: block;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background: none;
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li.dropFooter ul.dropFooter li a {
+    display: block;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    color: rgb(51,102,204);
+}
+
+footer div#footer2 div div#bloco2 nav#menuFooter ul li.dropFooter ul.dropFooter li a:hover {
+    background-color: rgba(144,23,23,0.9);
+    color: #FFF;
+}
+
+footer div#footer2 div div#bloco2 p {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 195px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #FFF;
+}
+
+footer div address hr.v {
+    float: left;
+}
+
+/* ---------- FORMULÁRIOS --------------------------------------------------------------------------------------- */
+
+input[type="text"], input[type="password"], input[type="email"],
+input[type="tel"], input[type="number"], input[type="url"],
+input[type="date"], input[type="time"], textarea, select {
+    border: 1px solid rgb(153,177,230);
+    border-top: 1px solid rgb(79,121,210);
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 30px;
+
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+label.radio {
+    display: block;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+label.checkbox {
+    display: block;
+    font-size: 15px;
+}
+
+input[readonly="readonly"] {
+    background: #DBDBEA;
+}
+
+textarea {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+select {
+    padding-right: 0px;
+}
+
+label {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(31,31,46);
+    text-align: left;
+}
+
+fieldset {
+    border: 1px solid rgb(153,177,230);
+    border-top: 1px solid rgb(79,121,210);
+    background: rgba(255,255,255,0.3);
+    padding: 9px;
+}
+
+legend {
+    padding: 5px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(31,31,46);
+    text-align: left;
+}
+
+/* ---------- VALIDATE ------------------------------------------------------------------------------------------ */
+
+label.error {
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 21px;
+    border-color: rgb(255,0,0);
+    border-width: 1px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border-style: solid;
+    font-family: 'Muli', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(31,31,46);
+    text-align: left;
+    color: #ff0000;
+    background: rgb(255,255,191);
+}

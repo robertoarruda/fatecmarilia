@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+article#article div figure img {
+    float: right;
+    margin: 10px;
+    margin-top: -8px;
+    margin-right: 20px;
+    text-align: right;
+
+}
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 570px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 20px;
+    padding-right: 410px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div figure img.imageInstituicao {
+    cursor: pointer;
+}
+
+article#article div section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+article#article div section p {
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 30px;
+    text-indent: 40px;
+}
+
+article#article div section ul.corpo {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div section ul.corpo li {
+    margin-bottom: 5px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 30px;
+    text-indent: 40px;
+}
+
+article#article div section ul.corpo ul {
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div section ul.corpo ul li,
+article#article div section ul.corpo ul li a {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 30px;
+    text-indent: 40px;
+    text-decoration: none;
+}
+
+article#article div section ul.corpo ul li a:hover {
+    text-decoration: underline;
+}
+
+article#article div section ul.corpo ul li img,
+article#article div section ul.corpo ul li a img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}

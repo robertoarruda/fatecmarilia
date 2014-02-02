@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.contracapa {
+    width: 490px;
+    height: 687px;
+    background-color: #EEE;
+    border: 10px solid #FFF;
+    border-right: none;
+}
+div.contracapa2 {
+    width: 490px;
+    height: 687px;
+    background-color: #EEE;
+    border: 10px solid #FFF;
+    border-left: none;
+}
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 570px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 20px;
+    padding-right: 410px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div ol#revistaMenu {
+    background-color: rgb(217,225,244);
+    width: 944px;
+    padding: 20px;
+    border-color: rgb(255,255,255);
+    border-width: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+article#article div ol#revistaMenu h1 {
+    background-color: rgb(219,219,234);
+    width: 554px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div ol#revistaMenu li {
+    margin-left: 25px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+article#article div ol#revistaMenu li:hover {
+    text-decoration: underline;
+}
+
+article#article div ol#revistaMenu2 {
+    visibility: hidden;
+    display: none;
+}
+
+article#article div section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+article#article div section h2 {
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div section p {
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 30px;
+    text-indent: 40px;
+}
+
+article#article div section p.list {
+    margin-left: 40px;
+    text-indent: 0px;
+}
+
+article#article div section p a {
+    text-decoration: underline;
+    color: rgb(31,31,44);
+}
+
+article#article div section p a:hover {
+    text-decoration: none;
+    color: rgb(31,31,44);
+}
+
+article#article div div#revista div img {
+    max-width: 500px;
+    max-height: 707px;
+}
+
+article#article div div#revista div p {
+    position: absolute;
+    bottom: 30px;
+    font-family: Arial;
+    font-size: 10px;
+    color: #222;
+}
+
+article#article div div#revista div p.d {
+    right: 60px;
+}
+
+article#article div div#revista div p.e {
+    left: 60px;
+}
+
+article#article div ul.revistaList {
+    text-align: center;
+    list-style: none;
+    margin-right: -80px;
+}
+
+article#article div ul.revistaList li {
+    display: inline-block;
+    width: 250px;
+    height: 413px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+article#article div ul.revistaList li a {
+    text-decoration: none;
+}
+
+article#article div ul.revistaList li a img {
+    width: 250px;
+    height: 354px;
+}
+
+article#article div ul.revistaList li a p {
+    width: 250px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F1F2E;
+}
+
+article#article div ul.revistaList li a:hover p {
+    width: 250px;
+    color: #FFF;
+    background-color: rgb(51,102,204);
+}
+
+article#article div a#btnVoltar {
+    display: block;
+    background-color: rgb(51,102,204);
+    margin-top: 40px;
+    margin-left: 370px;
+    width: 200px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}

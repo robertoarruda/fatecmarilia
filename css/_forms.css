@@ -1,0 +1,591 @@
+@charset "utf-8";
+/* CSS Document */
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 980px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-right: 20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: right;
+}
+
+article#article div article.boxList {
+    background-color: rgb(217,225,244);
+    width: 944px;
+    padding: 20px;
+    border-color: rgb(255,255,255);
+    border-width: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+article#article div article.boxList h1 {
+    background-color: rgb(219,219,234);
+    width: 944px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div article.boxList a {
+    float: right;
+    display: block;
+    background-color: rgb(51,102,204);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div article.boxList a.excluirAlbum {
+    margin-bottom: 0px;
+}
+
+article#article div article.boxList p {
+    background-color: rgb(51,102,204);
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 95px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+article#article div article.boxList table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+article#article div article.boxList table thead,
+article#article div article.boxList table tfoot {
+    width: 944px;
+}
+
+article#article div article.boxList table thead tr th,
+article#article div article.boxList table tfoot tr td {
+    background-color: rgb(51,102,204);
+    border-right: 1px #D9E1F4 solid;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+article#article div article.boxList table tbody tr.par {
+    background: rgba(255,255,255,0.5);
+}
+
+article#article div article.boxList table tbody tr:hover {
+    background: rgb(219,219,234);
+}
+
+article#article div article.boxList table tbody tr td {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: rgb(31,31,44);
+    height: 80px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+article#article div article.boxList table thead tr th.alLeft,
+article#article div article.boxList table tfoot tr td.alLeft,
+article#article div article.boxList table tbody tr td.alLeft {
+    text-align: left;
+}
+
+article#article div article.boxList table thead tr th.alCenter,
+article#article div article.boxList table tfoot tr td.alCenter,
+article#article div article.boxList table tbody tr td.alCenter {
+    text-align: center;
+}
+
+article#article div article.boxList table tbody tr td.alCenter span.checked {
+    display: block;
+    margin: 0px auto;
+    width: 20px;
+    height: 20px;
+    background: rgb(31,31,44);
+    border: 1px solid rgb(153,177,230);
+    border-top: 1px solid rgb(79,121,210);
+}
+
+
+article#article div article.boxList table tbody tr td.alCenter span.unchecked {
+    display: block;
+    margin: 0px auto;
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    border: 1px solid rgb(153,177,230);
+    border-top: 1px solid rgb(79,121,210);
+}
+
+article#article div article.boxList table thead tr th.alRight,
+article#article div article.boxList table tfoot tr td.alRight,
+article#article div article.boxList table tbody tr td.alRight {
+    text-align: right;
+}
+
+article#article div article.boxList table thead tr th.codigo,
+article#article div article.boxList table tfoot tr td.codigo,
+article#article div article.boxList table tbody tr td.codigo {
+    text-align: center;
+    width: 70px;
+}
+
+article#article div article.boxList table thead tr th.codigo2,
+article#article div article.boxList table tfoot tr td.codigo2,
+article#article div article.boxList table tbody tr td.codigo2 {
+    text-align: center;
+    width: 170px;
+}
+
+article#article div article.boxList table thead tr th.opcoes,
+article#article div article.boxList table tfoot tr td.opcoes,
+article#article div article.boxList table tbody tr td.opcoes {
+    text-align: center;
+    width: 239px;
+    border-right: none;
+}
+
+article#article div article.boxList table thead tr th.opcoes1,
+article#article div article.boxList table tfoot tr td.opcoes1,
+article#article div article.boxList table tbody tr td.opcoes1 {
+    text-align: center;
+    width: 145px;
+    border-right: none;
+}
+
+article#article div article.boxList table thead tr th.opcoes2,
+article#article div article.boxList table tfoot tr td.opcoes2,
+article#article div article.boxList table tbody tr td.opcoes2 {
+    text-align: center;
+    width: 329px;
+    border-right: none;
+}
+
+article#article div article.boxList table thead tr th.opcoes3,
+article#article div article.boxList table tfoot tr td.opcoes3,
+article#article div article.boxList table tbody tr td.opcoes3 {
+    text-align: center;
+    width: 389px;
+    border-right: none;
+}
+
+article#article div article.boxList table tbody tr td img {
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+article#article div article.boxList table tbody tr td img.revista {
+    margin-top: 5px;
+    width: 70px;
+    height: 99px;
+}
+
+article#article div article.boxList table tbody tr td a {
+    float: right;
+    display: block;
+    margin: 0px;
+    margin-left: 5px;
+    background-color: rgb(51,102,204);
+    height: 38px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding-bottom: 2px;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div article.boxList table tbody tr td[href] {
+    cursor: pointer;
+}
+
+article#article div article.boxList table tbody tr td[href]:hover {
+    text-decoration: underline;
+}
+
+article#article div article.boxList table tbody tr td a.opcoes1 {
+    width: 80px;
+}
+
+article#article div article.boxList table tbody tr td ul {
+    text-align: center;
+    list-style: none;
+}
+
+article#article div article.boxList table tbody tr td ul li {
+    margin-top: -3px;
+    margin-bottom: -2px;
+    margin-right: -5px;
+    display: inline-block;
+    max-width: 35px;
+    max-height: 35px;
+}
+article#article div article.boxList table tbody tr td ul li img {
+    width: 35px;
+    height: 35px;
+}
+
+article#article div article.boxList ul.albumView {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 480px;
+    background: #FFF;
+    text-align: center;
+    list-style: none;
+    overflow-y: scroll
+}
+
+article#article div article.boxList ul.albumView2 {
+    margin-bottom: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 170px;
+    background: #FFF;
+    text-align: center;
+    list-style: none;
+    overflow-y: scroll
+}
+
+article#article div article.boxList ul.albumView li,
+article#article div article.boxList ul.albumView2 li {
+    display: inline-block;
+    width: 150px;
+    height:150px;
+}
+
+article#article div article.boxList ul.albumView li img,
+article#article div article.boxList ul.albumView2 li img {
+    width: 150px;
+    height:150px;
+    cursor: pointer;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -ms-filter: alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+article#article div article.boxList ul.albumView li img:hover,
+article#article div article.boxList ul.albumView2 li img:hover {
+    width: 140px;
+    height: 140px;
+    border: rgb(51,102,204) 5px solid;
+    opacity: 1;
+    -moz-opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100);
+}
+
+article#article div article.boxList ul.albumView li a.excluir,
+article#article div article.boxList ul.albumView2 li a.excluir {
+    position: relative;
+    display: block;
+    margin-top: -43px;
+    background-color: rgba(51,102,204,0.3);
+    height: 28px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding-bottom: 2px;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div article.boxList ul.albumView li a.excluir:hover,
+article#article div article.boxList ul.albumView2 li a.excluir:hover {
+    background-color: rgb(51,102,204);
+}
+
+article#article div article.boxList div.buttons {
+    height: 55px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+article#article div article.boxList div.buttons input.btnList {
+    float: right;
+    display: block;
+    margin-left: 15px;
+    background-color: rgb(51,102,204);
+    width: 140px;
+    height: 55px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+    
+    padding: 0px;
+    padding-bottom: 2px;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+
+article#article div article.boxList ul#boxButtons {
+    list-style: none;
+    margin-right: -20px;
+}
+
+article#article div article.boxList ul#boxButtons li {
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+article#article div article.boxList ul#boxButtons li a {
+    display: block;
+    background-color: rgb(51,102,204);
+    margin: 0px;
+    width: 402px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding-top: 8px;
+    
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div div#passos {
+    float: right;
+    background-color: rgb(217,225,244);
+    width: 180px;
+    border-color: rgb(110,181,53);
+    border-width: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+article#article div div#passos p.p1 {
+    background-color: rgb(51,102,204);
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+}
+
+article#article div div#passos p.p1 span {
+    font-size: 80px;
+}
+
+article#article div div#passos p {
+    padding: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+article#article div a.btnVoltar {
+    display: block;
+    float: right;
+    background-color: rgb(51,102,204);
+    margin-top: 40px;
+    width: 200px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div article.boxForm {
+    background-color: rgb(217,225,244);
+    width: 500px;
+    padding: 20px;
+    border-color: rgb(255,255,255);
+    border-width: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+article#article div article.boxForm h1 {
+    background-color: rgb(219,219,234);
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#article div article.boxForm a {
+    float: right;
+    display: block;
+    background-color: rgb(51,102,204);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#article div article.boxForm form input[type="text"],
+article#article div article.boxForm form input[type="password"],
+article#article div article.boxForm form input[type="email"],
+article#article div article.boxForm form input[type="tel"],
+article#article div article.boxForm form input[type="number"],
+article#article div article.boxForm form input[type="url"],
+article#article div article.boxForm form input[type="date"],
+article#article div article.boxForm form input[type="time"],
+article#article div article.boxForm form textarea,
+article#article div article.boxForm form select {
+    width: 480px;
+    margin-bottom: 20px;
+}
+
+article#article div article.boxForm form select {
+    width: 498px;
+}
+
+article#article div article.boxForm form textarea {
+    height: 300px;
+}
+
+article#article div article.boxForm form fieldset {
+    margin-bottom: 30px;
+    width: 478px;
+}
+
+article#article div article.boxForm form fieldset input[type="text"],
+article#article div article.boxForm form fieldset input[type="password"],
+article#article div article.boxForm form fieldset input[type="email"],
+article#article div article.boxForm form fieldset input[type="tel"],
+article#article div article.boxForm form fieldset input[type="number"],
+article#article div article.boxForm form fieldset input[type="url"],
+article#article div article.boxForm form fieldset input[type="date"],
+article#article div article.boxForm form fieldset input[type="time"],
+article#article div article.boxForm form fieldset textarea,
+article#article div article.boxForm form fieldset select {
+    width: 460px;
+    margin-bottom: 20px;
+}
+
+article#article div article.boxForm form fieldset select {
+    width: 478px;
+}
+
+article#article div article.boxForm form div.buttons {
+    height: 55px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+article#article div article.boxForm form div input.btnForm {
+    float: right;
+    display: block;
+    margin-left: 15px;
+    background-color: rgb(51,102,204);
+    width: 140px;
+    height: 55px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+    
+    padding: 0px;
+    padding-bottom: 2px;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}

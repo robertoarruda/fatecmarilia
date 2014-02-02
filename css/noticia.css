@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+article {
+    position: relative;
+}
+
+article#noticia div a.btnVoltar {
+    display: block;
+    float: right;
+    background-color: rgb(51,102,204);
+    margin-top: 40px;
+    width: 200px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+article#noticia div figure img {
+    float: right;
+    margin: 10px;
+    margin-top: -8px;
+    margin-right: 20px;
+    text-align: right;
+
+}
+
+article#noticia div h1 {
+    background-color: rgb(219,219,234);
+    width: 570px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 20px;
+    padding-right: 410px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+article#noticia div figure img.imageNoticia {
+    cursor: pointer;
+}
+
+article#noticia div p#autor-data {
+    margin-bottom: 20px;
+    margin-left: 16px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(82,82,97);
+    text-align: left;
+}
+
+article#noticia div section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+article#noticia div section p {
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 30px;
+    text-indent: 40px;
+}
+
+article#noticia div section p a {
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: rgb(31,31,44);
+    text-align: left;
+    line-height: 30px;
+    text-indent: 40px;
+    text-decoration: underline;
+}
+
+article#noticia div section p a:hover {
+    text-decoration: none;
+}
+
+article#noticia div h2 {
+    background-color: rgb(219,219,234);
+    width: 960px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: center;
+}
+
+article#noticia div ul.albumView {
+    width: 100%;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    list-style: none;
+    line-height: 0px;
+    text-indent: -4px;
+    background: #FFF;
+}
+
+article#noticia div ul.albumView li {
+    display: inline-block;
+}
+
+article#noticia div ul.albumView li img {
+    width: 80px;
+    height:80px;
+    cursor: pointer;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -ms-filter: alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+article#noticia div ul.albumView li img:hover {
+    width: 76px;
+    height: 76px;
+    border: rgb(51,102,204) 2px solid;
+    opacity: 1;
+    -moz-opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100);
+}
+
+article#noticia div div.pnlRedeSosiaisShare {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    height: 28px;
+    padding-left: 30px;
+}
+
+article#noticia div div#pnlRedeSosiaisShare {
+    width: 965px;
+    background: #666;
+}
+
+article#noticia div div.fb-like {
+    float: left;
+    margin-right: 25px;
+    margin-top: 4px;
+}
+
+article#noticia div div.pnlRedeSosiaisShare a {
+    float: left;
+    margin-right: 25px;
+    margin-top: 2px;
+}
+
+article#noticia div div.pnlRedeSosiaisShare a.btnFacebookShare:link {
+    display: block;
+    background: url(../imagens/layout/estrutura/jpeg/btnFacebookShare_off.jpg) no-repeat;
+    width: 127px;
+    height: 25px;
+}
+
+article#noticia div div.pnlRedeSosiaisShare a.btnFacebookShare:visited {
+    display: block;
+    background: url(../imagens/layout/estrutura/jpeg/btnFacebookShare_off.jpg) no-repeat;
+    width: 127px;
+    height: 25px;
+}
+
+article#noticia div div.pnlRedeSosiaisShare a.btnFacebookShare:hover {
+    display: block;
+    background: url(../imagens/layout/estrutura/jpeg/btnFacebookShare_on.jpg) no-repeat;
+    width: 127px;
+    height: 25px;
+}
+
+article#noticia div div.pnlRedeSosiaisShare a.btnFacebookShare:active {
+    display: block;
+    background: url(../imagens/layout/estrutura/jpeg/btnFacebookShare_off.jpg) no-repeat;
+    width: 127px;
+    height: 25px;
+}

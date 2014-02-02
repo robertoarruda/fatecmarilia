@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 980px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-right: 20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: right;
+}
+
+article#article div ul#boxButtons {
+    list-style: none;
+    margin-right: -20px;
+}
+
+article#article div ul#boxButtons li {
+    float: left;
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+article#article div ul#boxButtons li a {
+    display: block;
+    background-color: rgb(51,102,204);
+    width: 490px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding-top: 8px;
+    
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}

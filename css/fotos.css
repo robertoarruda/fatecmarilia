@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+article#article div h1 {
+    background-color: rgb(219,219,234);
+    width: 570px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    padding-left: 20px;
+    padding-right: 410px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(51,102,204);
+    text-align: left;
+}
+
+ul.albumList {
+    text-align: center;
+    list-style: none;
+    margin-right: -80px;
+}
+
+ul.albumList li {
+    display: inline-block;
+    width: 240px;
+    height: 300px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+ul.albumList li a {
+    text-decoration: none;
+}
+
+ul.albumList li a p {
+    width: 240px;
+    margin-left: 4px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F1F2E;
+}
+
+ul.albumList li a:hover p {
+    margin-left: 2px;
+    width: 240px;
+    color: #FFF;
+    background-color: rgb(51,102,204);
+}
+
+ul.albumList li a ul.album {
+    text-align: center;
+    list-style: none;
+    line-height: 0px;
+    text-indent: 0px;
+}
+
+ul.albumList li a ul.album li {
+    margin: 0px;
+    margin-right: -4px;
+    width: 120px;
+    height: 120px;
+}
+
+ul.albumList li a ul.album li img {
+    width: 120px;
+    height: 120px;
+}
+
+article#article div a#btnVoltar {
+    display: block;
+    background-color: rgb(51,102,204);
+    margin-top: 40px;
+    margin-left: 370px;
+    width: 200px;
+    height: 48px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    cursor: pointer;
+
+    padding: 30px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+ul.albumView {
+    text-align: center;
+    list-style: none;
+    line-height: 0px;
+    text-indent: -4px;
+}
+
+ul.albumView li {
+    display: inline-block;
+}
+
+ul.albumView li img {
+    width: 196px;
+    height:196px;
+    cursor: pointer;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -ms-filter: alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+ul.albumView li img:hover {
+    width: 186px;
+    height: 186px;
+    border: rgb(51,102,204) 5px solid;
+    opacity: 1;
+    -moz-opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100);
+}
