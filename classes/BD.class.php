@@ -26,7 +26,7 @@ class BD {
             //$host = 'localhost';
             $host = 'fatecmarilia.edu.br';
             $user = 'fatecmar_fatecma';
-            $pass = 'miitec357df';
+            $pass = '********';
             $bd = 'fatecmar_novosite';
             
             $dns = "mysql:host=$host;dbname=$bd";
